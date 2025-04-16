@@ -14,9 +14,16 @@ const NavbarLogo = () => {
         </h1>
       </Link>
 
-      <h1 className="text-white font-special font-extrabold text-4xl md:hidden sm:block">
-        AQ
+      <Link
+        to="Hero"
+        smooth={true}
+        duration={500}
+        offset={-250} // تعويض بسبب ارتفاع الـ Navbar إن وجد
+      >
+         <h1 className="text-white font-special font-extrabold text-4xl md:hidden sm:block">
+        AH
       </h1>
+      </Link>
     </div>
   );
 };
