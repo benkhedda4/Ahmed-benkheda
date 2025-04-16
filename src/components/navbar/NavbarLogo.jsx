@@ -21,10 +21,10 @@ const NavbarLogo = () => {
         offset={-250} // تعويض بسبب ارتفاع الـ Navbar إن وجد
       >
          <h1 className="text-white font-special font-extrabold text-4xl md:hidden sm:block">
-        AH
+         AH
       </h1>
       </Link>
-    </div>
+    </div> 
   );
 };
 
